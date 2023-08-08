@@ -5,7 +5,8 @@
 ## Introduction
 
 The Item Management System is a web application that allows users to manage items in a database. It provides functionalities for adding, updating, retrieving, and deleting items.
-Project Structure
+
+## Project Structure
 
 The project follows the MVC (Model-View-Controller) architecture to separate concerns and maintain a clean and organized codebase.
 
@@ -18,7 +19,7 @@ The project follows the MVC (Model-View-Controller) architecture to separate con
 ## Installation
 
 
-git clone https://github.com/yourusername/item-management-system.git](https://github.com/ivangrana/ExpressJS-Sqlite-API.git
+git clone https://github.com/ivangrana/ExpressJS-Sqlite-API.git
 
 Navigate to the project directory:
 
@@ -28,11 +29,11 @@ cd item-management-system
 
 - Install dependencies using npm or yarn:
 
-bash
 
-    npm install
-    # or
-    yarn install
+
+      npm install
+      # or
+      yarn install
 
     Create an SQLite database file named database.db.
 
@@ -127,7 +128,7 @@ Response:
        "message": "Item deleted successfully"
        }
 
-Contributing
+### Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
