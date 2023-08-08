@@ -16,6 +16,9 @@ The project follows the MVC (Model-View-Controller) architecture to separate con
 - routes/: Contains route definitions that connect URLs to controller methods.
 - database.db: SQLite database file.
 
+## Project overview:
+<img src= "https://raw.githubusercontent.com/ivangrana/ExpressJS-Sqlite-API/main/src/img1.png">
+
 ## Installation
 
 
