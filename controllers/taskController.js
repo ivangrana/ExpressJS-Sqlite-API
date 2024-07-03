@@ -14,7 +14,7 @@ class TaskController {
                 const tasks_list = rows.map(tasks => ({
                     title: tasks.title,
                     description: tasks.description,
-                    id: tasks.id
+                    completed: Boolean(tasks.completed)
                 }));
                 res.json(tasks_list);
             }
@@ -31,7 +31,7 @@ class TaskController {
                 res.json({
                     title: tasks.title,
                     description: tasks.description,
-                    id: tasks.id
+                    completed: Boolean(tasks.completed)
                 });
             } else {
                 res.status(404).json({ error: 'tasks not found' });
