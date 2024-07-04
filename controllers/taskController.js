@@ -39,7 +39,7 @@ class TaskController {
         });
     }
 
-    addtask(req, res) {
+    addTask(req, res) {
         const { title, description } = req.body;
         this.tasksModel.addTask(title, description, (err) => {
             if (err) {
@@ -53,8 +53,8 @@ class TaskController {
 
     updateTask(req, res) {
         const id = req.params.id;
-        const { category, title, description } = req.body;
-        this.tasksModel.updateTask(id, category, title, description, (err) => {
+        const { title, description } = req.body;
+        this.tasksModel.updateTask(title, description, (err) => {
             if (err) {
                 console.error('Error updating tasks:', err.message);
                 res.status(500).json({ error: 'Internal Server Error' });

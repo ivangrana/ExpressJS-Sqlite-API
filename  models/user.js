@@ -14,7 +14,7 @@ class UserModel {
     }
 
     getTasksByUser(user_id, callback) {
-        this.db.all('SELECT * FROM UserTable WHERE user_id = ?', [user_id], callback);
+        this.db.all('SELECT u.*, t.* FROM user u LEFT JOIN UserTask ut ON u.id = ? LEFT JOIN tasks t ON ut.task_id = t.id;', [user_id], callback);
     }
 }
 

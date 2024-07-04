@@ -30,6 +30,7 @@ class TaskController {
                 const tasks_list = rows.map(tasks => ({
                     title: tasks.title,
                     description: tasks.description,
+                    completed: Boolean(tasks.completed),
                     id: tasks.id
                 }));
                 res.json(tasks_list);
