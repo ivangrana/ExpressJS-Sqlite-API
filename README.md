@@ -13,6 +13,7 @@ The project follows the MVC (Model-View-Controller) architecture to separate con
 - database.db: SQLite database file.
 
 ## Database diagram:
+![Untitled](https://github.com/ivangrana/ExpressJS-Sqlite-API/assets/89265428/ba9d7582-2c05-4d2a-91d5-0dcf1959a192)
 
 ### Relationships:
 
