@@ -136,7 +136,6 @@ The project follows the MVC (Model-View-Controller) architecture to separate con
 - **Example Request Body:**
     
     ```json
-    jsonCopiar código
     {
       "title": "Write documentation",
       "description": "Create documentation for API routes and methods."
@@ -158,7 +157,6 @@ The project follows the MVC (Model-View-Controller) architecture to separate con
 - **Example Response:**
     
     ```json
-    jsonCopiar código
     {
       "message": "Task deleted successfully."
     }
